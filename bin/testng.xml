@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parameter passing check">
+	<test name="ParameterTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="Url" value="https://www.rediff.com/" />
+		<classes>
+			<class name="com.TestNgTest.ParameterPassingInTestNg" />
+		</classes>
+	</test>
+</suite>
+
+
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+ <suite name="Default suite"> 
+<test name="testNg Files"> 
+<classes> 
+<class name="com.TestNgTest.GoogleTest" /> 
+<class name="com.TestNgTest.InvocationCount" /> 
+<class name="com.TestNgTest.SampleTestNG" /> 
+</classes> 
+</test> Default test 
+</suite> Default suite -->
